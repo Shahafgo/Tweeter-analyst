@@ -90,7 +90,7 @@ class App extends React.Component
     )}
 
  callBackGetAvgTweetPerSecond(data){
-    this.setState({avgTweet:data})
+    this.setState({avgTweet:Math.round(Number(data))})
   }
 
  callBackGetNames(data){
