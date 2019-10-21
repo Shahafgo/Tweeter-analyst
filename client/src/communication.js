@@ -3,7 +3,7 @@ import axios from "axios"
 const TOP_NAMES_PATH = "http://localhost:4000/getTopFrequentNames";
 const TOP_WORDS_PATH = "http://localhost:4000/getTopFrequentWords";
 const TOP_HASHTAGS_PATH = "http://localhost:4000/getTopFrequentHashtags";
-const AVG_TwittS_PATH = "http://localhost:4000/getAvgTwittsPerSecond";
+const AVG_TwittS_PATH = "http://localhost:4000/getAvgTweetsPerSecond";
 
 
 export function getAvgTweetPerSecond(callBack){

@@ -13,7 +13,7 @@ import {
   Col
 } from "reactstrap";
 
-const INTERVAL_FETCH_DATA = 100;
+const INTERVAL_FETCH_DATA = 5000;
 class TwitterAnalyst extends React.Component
 {
   initialState = {
