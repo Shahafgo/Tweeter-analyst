@@ -1,13 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Execution instructions
 
-## Available Scripts
+### `Client side`
+1) Get enter to tweeter-analyst/client .
+2) Run in terminal/bash and run: `npm install`
+3) Run in terminal/bash and run: `npm run start`
 
-In the project directory, you can run:
+### `Server side`
+1) Get enter to tweeter-analyst/server.
+2) Run in terminal/bash and run: `npm install`
+3) Run in terminal/bash and run: `npm run start`
 
-### `npm start`
-
-Runs the client side in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
