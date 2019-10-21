@@ -13,9 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "start-client": "npm run start",
-    "start-server": "cd server && npm run start"
+    "build": "react-scripts build"
   },
   "author": "Shahaf Golan",
   "eslintConfig": {
