@@ -24,12 +24,12 @@ As I see it, all the requested parts had been handled,including the bonus.
 ### Node ^V12.11.0
 
 ### `Client side`
-1) Get enter to tweeter-analyst/client .
+1) Get enter to twitter-analyst/client .
 2) Run in terminal/bash and run: `npm install`
 3) Run in terminal/bash and run: `npm run start`
 
 ### `Server side`
-1) Get enter to tweeter-analyst/server.
+1) Get enter to twitter-analyst/server.
 2) Run in terminal/bash and run: `npm install`
 3) Run in terminal/bash and run: `npm run start`
 
