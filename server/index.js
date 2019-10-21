@@ -3,7 +3,7 @@ const analyst = require('./analyst.js');
 const cors = require('cors')
 const app = express();
 const port = 4000;
-const WELCOME_SENTENCE ="Welcome to your tweeter analyst server side !";
+const WELCOME_SENTENCE ="Welcome to your twitter analyst server side !";
 
 app.use(cors({
       origin: ['http://localhost:3000',],
@@ -20,4 +20,4 @@ app.route('/getTopFrequentHashtags').get((req, res) => res.send(analyst.getHasTa
 // Activate analyst
 analyst.start();
 
-app.listen(port,console.log(`Tweeter analyst server listening on port ${port}!`))
+app.listen(port,console.log(`Twitter analyst server listening on port ${port}!`))

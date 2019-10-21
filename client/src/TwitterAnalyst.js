@@ -13,8 +13,8 @@ import {
   Col
 } from "reactstrap";
 
-const INTERVAL_FETCH_DATA = 5000;
-class App extends React.Component
+const INTERVAL_FETCH_DATA = 100;
+class TwitterAnalyst extends React.Component
 {
   initialState = {
     topNames:[],
@@ -169,7 +169,7 @@ class App extends React.Component
             <Col>
               <i className = "tim-icons icon-bell-55 text-info " />{" "}
               <span style = {{display: "inline-block"}}>
-                Avg tweet
+                Avg Tweet
               </span>
             </Col>
               <Col>
@@ -262,4 +262,4 @@ class App extends React.Component
           </div>
         )}
 }
-export default App;
+export default TwitterAnalyst;

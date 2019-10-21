@@ -3,11 +3,11 @@ import axios from "axios"
 const TOP_NAMES_PATH = "http://localhost:4000/getTopFrequentNames";
 const TOP_WORDS_PATH = "http://localhost:4000/getTopFrequentWords";
 const TOP_HASHTAGS_PATH = "http://localhost:4000/getTopFrequentHashtags";
-const AVG_TWEETS_PATH = "http://localhost:4000/getAvgTweetsPerSecond";
+const AVG_TwittS_PATH = "http://localhost:4000/getAvgTwittsPerSecond";
 
 
 export function getAvgTweetPerSecond(callBack){
-  axios.get(AVG_TWEETS_PATH, {params: {}})
+  axios.get(AVG_TWITTS_PATH, {params: {}})
         .then(function (response) {
             callBack (response.data)
         })
