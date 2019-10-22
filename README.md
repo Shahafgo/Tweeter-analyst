@@ -1,6 +1,6 @@
 
 ## Engineering assumptions
-1) The tweeter stream is infinite.
+1) The twitter stream is infinite.
 2) The server side should process the data all the time.
 3) The processed data should be available all the time to be requested by the the client side.
 4) The client side should be updated every few seconds.
